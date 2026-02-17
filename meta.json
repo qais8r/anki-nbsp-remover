@@ -1,0 +1,13 @@
+{
+  "name": "nbsp Remover - Auto remove HTML spaces in bulk",
+  "mod": 1753635514,
+  "min_point_version": 1,
+  "max_point_version": 250705,
+  "branch_index": 0,
+  "disabled": false,
+  "config": {
+    "show_tooltip": true,
+    "auto_run_startup": false,
+    "purge_shortcut": "Ctrl+Alt+P"
+  }
+}
