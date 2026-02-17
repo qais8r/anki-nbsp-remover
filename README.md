@@ -4,18 +4,11 @@ A small Anki add-on that removes HTML non-breaking spaces (`&nbsp;`) and replace
 
 ## Features
 
-- Cleans newly added notes automatically:
-  - Hooks into the Add Cards flow.
-  - After a note is added, scans every field and replaces `&nbsp;` with a regular space.
-- Collection-wide purge command:
-  - Adds a Tools menu entry: `Tools -> nbsp Remover -> Purge collection from &nbsp;`.
-  - Runs Anki's background find/replace across all notes.
-- Optional startup purge:
-  - Can run the collection-wide purge automatically when Anki starts.
-- Configurable keyboard shortcut:
-  - Shortcut for the manual purge action (default: `Ctrl+Alt+P`).
-- Optional tooltips:
-  - Shows confirmation/status tooltips after cleanup actions.
+- Cleans newly added notes automatically by hooking into Add Cards and replacing `&nbsp;` with a regular space in every field after a note is added.
+- Adds a collection-wide purge command at `Tools -> nbsp Remover -> Purge collection from &nbsp;` that runs Anki's background find/replace across all notes.
+- Supports optional startup purge to run the collection-wide cleanup automatically when Anki starts.
+- Supports a configurable keyboard shortcut for manual purge (default: `Ctrl+Alt+P`).
+- Supports optional tooltips that show confirmation/status after cleanup actions.
 
 ## Menu Entries
 
