@@ -1,8 +1,5 @@
 {
-  "name": "nbsp Remover - Auto remove HTML spaces in bulk",
-  "mod": 1753635514,
-  "min_point_version": 1,
-  "max_point_version": 250705,
+  "name": "&nbsp; Remover",
   "branch_index": 0,
   "disabled": false,
   "config": {
